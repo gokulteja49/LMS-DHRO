@@ -66,3 +66,7 @@ You can start editing the app from the `pages/` or `app/` directory depending on
 - 🧑‍💼 Admin controls for content management  
 
 ---
+# ScreenShots
+<img width="1252" height="732" alt="Screenshot 2025-07-26 021453" src="https://github.com/user-attachments/assets/212eff85-0827-48a3-93fa-db662737d3f6" />
+
+<img width="1237" height="710" alt="Screenshot 2025-07-26 021514" src="https://github.com/user-attachments/assets/32d7dabe-e4d7-409b-9409-de12a237ec70" />
