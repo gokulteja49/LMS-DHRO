@@ -1,31 +1,68 @@
-DHRO – Learning Management System (LMS)
-DHRO is a full-featured Learning Management System built with the MERN stack (MongoDB, Express.js, React.js, Node.js) to deliver online and offline learning experiences, mock tests, blogs, books, PDFs, current affairs, and daily study content for students and learners.
+# DHRO – Learning Management System
 
-🚀 Features
-🧑‍🏫 Course Management – List, categorize, and manage various courses and test series.
+This is a full-stack LMS (Learning Management System) project built with the **MERN stack**, offering mock tests, courses, blogs, PDFs, and daily learning resources.
 
-📖 Mock Tests & Results – Attempt mock tests and view instant results with performance tracking.
+> Developed by Gokul Teja
 
-📰 Blogs & Current Affairs – Share educational blogs and daily current affairs updates.
+---
 
-📚 Books & PDFs Uploads – Downloadable educational materials like e-books and study PDFs.
+## Getting Started
 
-📅 Daily Dose & Study Material – Provide bite-sized learning content for daily revisions.
+### 📦 Backend Setup
 
-🔒 JWT-Based Authentication – Secure login and user role access using JSON Web Tokens.
+First, navigate to the backend folder and install dependencies:
 
-🧾 Dynamic Admin Controls – Easily manage backend data with route-based modular design.
-
-1. Clone the Repository
-git clone https://github.com/gokulteja49/dhro.git
-cd dhro lms
-2. Backend Setup
+```bash
 cd backend
 npm install
+```
 
-# Create .env file with MongoDB URI, PORT, JWT_SECRET, etc.
+Then run the backend server:
+
+```bash
 npm start
-3. Frontend Setup
-cd ../frontend
+```
+
+> Ensure you create a `.env` file in the `backend` directory with the following:
+
+```env
+MONGO_URI=your_mongodb_connection
+JWT_SECRET=your_jwt_secret
+PORT=5000
+```
+
+---
+
+### 💻 Frontend Setup
+
+Open a new terminal and navigate to the frontend folder:
+
+```bash
+cd frontend
 npm install
-npm start
+```
+
+Then start the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the app running.
+
+You can start editing the app from the `pages/` or `app/` directory depending on your Next.js version.
+
+---
+
+## 📚 Features
+
+- 📖 View and enroll in online/offline courses  
+- 🧪 Attempt mock tests and track performance  
+- 📰 Read blogs and daily current affairs  
+- 📥 Download books and study PDFs  
+- 🔐 Secure login with JWT authentication  
+- 🧑‍💼 Admin controls for content management  
+
+---
